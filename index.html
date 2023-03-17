@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GrabMart </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img src="data:image/png;base64,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"
+            height="60px" alt="" />
+        <nav class="nav">
+            <a href="Project.html">🏠Home</a>
+            <a href="service.html">🚚Services</a>
+            <a href="#">🔯Categories</a>
+            <a href="contact us.html">📞Contact us </a>
+
+            <!-- <span href="#">Fashion World</span> -->
+            <input class="search" type="text" placeholder="🔍Search here for items" />
+            <a class="login" href="login.html" target="_blank">📲Login</a>
+            <a class="login" href="cart.html" target="_blank">🛒Cart</a>
+        </nav>
+    </header>
+    <div class="poster">
+        <img src="https://img.freepik.com/free-vector/promotion-fashion-banner_1188-223.jpg?w=2000" alt=""
+            width="1100px" height="500px" />
+    </div>
+    <h1>JUST FOR YOU - BUY OR VIEW IT AGAIN</h1>
+    <section>
+        <!-- First CAtegory -->
+        <h1>T-Shirt</h1>
+        <div id="tshirt">
+            <div>
+                <img src="i7.jpeg" height="300px" alt="Image" />
+                <p>Adidas T-Shirt
+                </p>
+                <P>M.R.P.: ₹950.00</P>
+                <p><a href="#">Add to cart</a></p>
+
+            </div>
+            <div>
+                <img src="i8.jpeg" height="300px" alt="Image" />
+                <p>Casual T-Shirt
+                </p>
+                <P>M.R.P.: ₹950.00</P>
+                <p><a href="#">Add to cart</a></p>
+            </div>
+            <div>
+                <img src="i4.jpeg" height="300px" alt="" />
+                <p>Nike T-Shirt</p>
+                <P>M.R.P.: ₹950.00</P>
+                <p><a href="#">Add to cart</a></p>
+            </div>
+            <div>
+                <img src="i5.jpeg" height="300px" alt="" />
+                <p>Nike T-Shirt
+                </p>
+                <P>M.R.P.: ₹950.00</P>
+                <p><a href="#">Add to cart</a></p>
+            </div>
+        </div>
+        <!-- Second Category -->
+        <h1>Pants</h1>
+        <div id="shirts">
+            <div>
+                <img src="i16.jpeg"
+                    height="300px" alt="" />
+                <p>Green Pant </p>
+                <P>M.R.P.: ₹950.00</P>
+                <p><a href="#">Add to cart</a></p>
+            </div>
+            <div>
+                <img src="https://assets.ajio.com/medias/sys_master/root/h11/h6d/11458864087070/-473Wx593H-460151939-brown-MODEL.jpg"
+                    height="300px" alt="" />
+                <p>Brown Pant</p>
+                <P>M.R.P.: ₹950.00</P>
+                <p><a href="#">Add to cart</a></p>
+            </div>
+            <div>
+                <img src="https://assets.ajio.com/medias/sys_master/root/h6e/h48/12145874894878/-288Wx360H-460102726-olive-MODEL.jpg"
+                    height="300px" alt="" />
+                <p>Dark Brown Pant</p>
+                <P>M.R.P.: ₹950.00</P>
+                <p><a href="#">Add to cart</a></p>
+            </div>
+            <div>
+                <img src="https://cdn.shopify.com/s/files/1/2526/8658/products/TRC-15488-LIGHT-KHAKI-3.jpg?v=1608212374"
+                    height="300px" alt="" />
+                <p>Grey Pant</p>
+                <P>M.R.P.: ₹950.00</P>
+                <p><a href="#">Add to cart</a></p>
+            </div>
+        </div>
+        <!-- Third Category -->
+        <h1>
+            Watches
+        </h1>
+        <div id="shirts">
+            <div>
+                <img src="https://m.media-amazon.com/images/G/31/img21/Watches2021/May/XCM/SBC/M/SBC-Hex-new-watches-m_02._CB636514486_.jpg"
+                    height="300px" alt="" />
+                <p>Watches</p>
+                <P>M.R.P.: ₹950.00</P>
+                <p><a href="#">Add to cart</a></p>
+            </div>
+            <div>
+                <img src="https://rukminim1.flixcart.com/image/432/518/juwzf680/watch/y/y/a/tw00zr293e-timex-original-imaffxk4hcgznxjv.jpeg?q=70"
+                    height="300px" alt="" />
+                <p>
+                    Watches
+                </p>
+                <P>M.R.P.: ₹950.00</P>
+                <p><a href="#">Add to cart</a></p>
+            </div>
+            <div>
+                <img src="https://m.media-amazon.com/images/I/41BnRZXy9EL._SL500_.jpg" height="300px" alt="" />
+                <p>Watches
+                </p>
+                <P>M.R.P.: ₹950.00</P>
+                <p><a href="#">Add to cart</a></p>
+            </div>
+            <div>
+                <img src="https://m.media-amazon.com/images/I/71aZl-sAA-L._UL1454_.jpg" height="300px" alt="" />
+                <p>Watches</p>
+                <P>M.R.P.: ₹950.00</P>
+                <p><a href="#">Add to cart</a></p>
+            </div>
+        </div>
+        <h1>Shoes</h1>
+        <div id="shirts1">
+            <div>
+                <img src="https://contents.mediadecathlon.com/p1420005/4067736fa30c86fd7c12291607df5399/p1420005.jpg" height="300px" alt="" />
+                <p>Shoes</p>
+                <P>M.R.P.: ₹950.00</P>
+                <p><a href="#">Add to cart</a></p>
+            </div>
+            <div>
+                <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/29abad8d7ae64654b001adb90136819e_9366/RUNMAGICA_SHOES_Blue_EY2972_01_standard.jpg "
+                    height="300px" alt="" />
+                <p>
+                    Shoes
+                </p>
+                <P>M.R.P.: ₹950.00</P>
+                <p><a href="#">Add to cart</a></p>
+            </div>
+            <div>
+                <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/09c5ea6df1bd4be6baaaac5e003e7047_9366/Forum_Low_Shoes_White_FY7756_01_standard.jpg" height="300px" alt="" />
+                <p>Shoes
+                </p>
+                <P>M.R.P.: ₹950.00</P>
+                <p><a href="#">Add to cart</a></p>
+            </div>
+            <div>
+                <img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/e7e9c37d7d9c4e12962aaebd00c8307a_9366/SEIZE_THE_STREET_SHOES_Black_GA1135_01_standard.jpg" height="300px" alt="" />
+                <p>Shoes</p>
+                <P>M.R.P.: ₹950.00</P>
+                <p><a href="#">Add to cart</a></p>
+            </div>
+        </div>
+
+    </section>
+
+
+        <footer>
+            <div id="footer">
+              <a href="#">
+      
+                <h2>
+                  Back to top
+                </h2>
+              </a>
+            </div>
+            <div id="footer1">
+              <div><a href="https://instagram.com/i__m_.rohan?igshid=YmMyMTA2M2Y="><img src="https://i.pinimg.com/originals/4e/01/f0/4e01f06a86687a3c784b3924ea3b8183.jpg" height="60px" alt="">
+                <p>Instagram</p></a>
+              </div>
+              <div><img src="https://th.bing.com/th/id/OIP.4JQNIKaoPcH-sxxj9C1qrAHaHa?pid=ImgDet&rs=1" height="60px" alt="">
+                  <a href="#"><p>Facebook</p></a>
+                </div>
+                <div><img src="https://financialsmarts.umbc.edu/files/2019/07/twitter_rounded_black_bg.png" height="60px" alt="">
+                  <a href="#"><p>Twitter</p></a>
+                </div>
+                <div><img src="https://s3-eu-west-1.amazonaws.com/www.zmtventures.com/assets/images/linkedin.png" height="60px" alt="">
+                  <a href="#"><p>Linkedin</p></a>
+                </div>
+              </footer>
+                <div id="footer2">
+                  <p>Don't Sell My Personal Information</p>
+                  <p>|</p>
+                  <p>All Rights Reserved</p>
+                  <p>|</p>
+                  <P>Copyright © 2022 </P>
+                </div>
+
+
+</body>
+
+</html>

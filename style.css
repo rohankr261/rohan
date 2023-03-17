@@ -1,0 +1,186 @@
+body {
+    background-image: linear-gradient(30deg,
+            rgb(47, 182, 216),
+            rgb(255, 255, 255),
+            rgb(248, 213, 137));
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    padding-top: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: cursive;
+    padding: 12px;
+}
+
+.nav {
+    background-color: rgb(246, 233, 159);
+    padding-top: 15px;
+    height: 47px;
+    width: 1000;
+    border-radius: 5px;
+    font-size: 20px;
+    z-index: 1;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+.login {
+    padding: 12px;
+    float: right;
+}
+
+.search {
+    float: right;
+    margin-top: 12px;
+    margin-right: 24px;
+    height: 25px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+span {
+    color: aliceblue;
+    font-family: "Times New Roman";
+    font-size: 34px;
+    margin-left: 270px;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-family: cursive;
+    border-radius: 10px;
+}
+
+#tshirt {
+    padding-top: 34px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#shirts {
+    padding-top: 34px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#shirts1 {
+    padding-top: 34px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+div>img:hover {
+    transition: all 2s ease-out;
+    transform: scale(1.06);
+
+}
+
+div>p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(2, 2, 2);
+}
+
+h1 {
+    text-align: left;
+    color: rgb(3, 3, 3);
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+div+h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+.poster {
+    padding-left: 120px;
+    padding-top: 10px;
+    height: 500px;
+    width: 1005px;
+
+}
+
+/* .img:hover {
+padding-left: 170px;
+padding-top: 10px;
+height: 500px;
+width: 1005px;
+transform: scale(1.1);
+
+} */
+
+
+header img {
+    float: left;
+    border-radius: 10px;
+    margin-right: 10px;
+    
+
+}
+
+p>a {
+    color: rgb(6, 6, 6);
+}
+
+p>a:hover {
+    text-decoration: underline;
+    color: rgb(7, 7, 7);
+    background-color: rgba(239, 241, 205, 0.698);
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(120, 120, 120);
+  }
+  #footer1{
+    height: 250px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#footer1 img{
+  border-radius: 40px;
+  padding: 20px;
+  
+
+}
+#footer1>p{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+#footer2{
+  height: 100px;
+  background-color: rgb(2, 55, 43);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+#footer2 p{
+  padding: 20px;
+}
